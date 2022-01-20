@@ -1,4 +1,4 @@
-# Example of Filled-Out Form
+# Example of Filled-Out Form (potentially outdated! Use as guideline only)
 ## Step 1.1:
 
 * Address of account A: `ZBXIRU3KVUTZMFC2MNDHFZ5RZMEH6FYGYZ32B6BEJHQNKWTUJUBB72WL4Y`
