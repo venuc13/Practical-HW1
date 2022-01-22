@@ -274,7 +274,7 @@ On [AlgoExplorer](https://testnet.algoexplorer.io) you can see that transactions
 
 If you do not see the above, it means you sent two independent transactions instead of making an atomic transfer.
 
-## (FIXME Extra Credit) Step 5 - Automating Trading
+## (Extra Credit) Step 5 - Automating Trading
 
 While atomic transfers are very useful to trade assets, they require each account involved in the trade to sign the transactions.
 In some cases, you may want to allow anybody to trade assets with you without having to sign transactions.
