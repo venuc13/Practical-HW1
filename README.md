@@ -24,7 +24,7 @@ In this homework, you will learn:
 3. how to trade your token "atomically" without any third party.
 4. how to get the official "buildweb3" asset for just 4.2 Algos, by using your first smart signature (aka stateless smart contract).
 
-*Warning*: All the homework is meant to be done on TestNet, where coins (called the Algos) are fake. When switching to MainNet, accounts store real cryptocurrency and proper security of key storage and management needs to be taken into consideration.
+*Warning*: All the homework is meant to be done on TestNet, where coins (called the Algos) are fake. When switching to MainNet, accounts store real cryptocurrency and proper security of key storage and management needs to be taken into consideration. We will never ask you to work on MainNet.
 
 Note that we expect you to learn how to read through some open source documentation to complete this homework. If this is new to you, this will be a very useful skill in working with any open source projects (including blockchain projects) in the future.
 
@@ -385,6 +385,6 @@ Most dApps actually now use smart contracts rather than smart signatures.
 Still smart signatures are useful in some specific use cases like the above simple automated trading (a smart contract would have been slightly more complex) and when very complex operations need to be performed (like slow cryptographic operations).
 
 ## Submission
-Submit your form.md file and the python files you used to interact with the blockhain on canvas.
+Submit your form.md file and the python files you used to interact with the blockhain on gradescope.
 
 This concludes the homework! 🎉🎉
