@@ -341,6 +341,8 @@ txid = algod_client.send_transactions(signed_group)
 
 # Print the transaction ID of the first transaction of the group
 print("Send transaction with txID: {}".format(txid))
+
+Remember to update [form.md](form.md) with the transaction ID of the first transaction of the atomic transfer.
 ```
 
 ### Going Further (helpful info for HW 2)
