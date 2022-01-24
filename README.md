@@ -210,7 +210,7 @@ ASAs can be used to represent stablecoins, loyalty points, system credits, in-ga
 
 **Task:** Create your own asset on Algorand from account A. The creator account must be account A. The total supply (number of tokens) should be at least 10. Choose your preferred asset name, unit name, number of decimals, and URL. Set the manager, reserve, freeze, and clawback addresses to the address of account A. Report the Asset ID and its name on [form.md](form.md).
 
-You can create assets using the Python SDK. See the [developer documentation](https://developer.algorand.org/docs/features/asa/#creating-an-asset) or the tutorial [Working with ASA using Python](https://developer.algorand.org/tutorials/asa-python). Note that the tutorial may uses multiple accounts. For your homework, you should only use account A as creator/sender, manager, reserve, freeze, and clawback addresses. Furthermore, if some functions are missing from the code snippets found in the documentation, you can find those functions by following the link “See complete code...“.
+You can create assets using the Python SDK. See the [developer documentation](https://developer.algorand.org/docs/features/asa/#creating-an-asset) or the tutorial [Working with ASA using Python](https://developer.algorand.org/tutorials/asa-python). Note that the tutorial may use multiple accounts. For your homework, you should only use account A as creator/sender, manager, reserve, freeze, and clawback addresses. Furthermore, if some functions are missing from the code snippets found in the documentation, you can find those functions by following the link “See complete code...“.
 
 You can search for your asset in a block explorer by searching for the asset ID.
 
