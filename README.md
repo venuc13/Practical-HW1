@@ -9,9 +9,9 @@ Throughout this course, many of the practical programming homeworks will be done
 
 A few key concepts to keep in mind throughout this homework.
 
-The first is that “the blockchain” that you will be interacting with can be thought of as an instantiation of some protocol, in this case the Algorand protocol. This protocol defines a network of nodes (Algorand nodes), which at a very basic level are computers all around the world that are running the Algorand software, which implements the Algorand protocol. Each node in this network stores a copy of the entire set of data residing on the blockchain, including every transaction that has occurred since the inception of the network.
+The first is that “the blockchain” that you will be interacting with can be thought of as an instantiation of some protocol, in this case the Algorand protocol. This protocol defines a network of nodes (Algorand nodes), which at a very basic level are computers all around the world that are running the Algorand software, which implements the Algorand protocol. 
 
-There are multiple instances of this network. The two largest instances are called the mainnet and the testnet. These are both public networks (as in anyone can access and interact with them), but the mainnet uses a fixed supply of the native currency Algo, which has real monetary value. The testnet on the other hand is public but for sandboxing purposes and thus has a “fake” Algo currency that can be generated out of thin-air (instead of purchasing them with real money). We will interact with the testnet and not the mainnet in this homework.
+There are multiple instances of this network. The two largest instances are called the mainnet and the TestNet. These are both public networks (as in anyone can access and interact with them), but the mainnet uses a fixed supply of the native currency Algo, which has real monetary value. The TestNet on the other hand is public but for sandboxing purposes and thus has a “fake” Algo currency that can be generated out of thin-air (instead of purchasing them with real money). We will interact with the TestNet and not the mainnet in this homework.
 
 Further, you can create your own private instantiations of the Algorand network. In the extreme case, this network may consist of just one node such as your laptop.
 
@@ -135,7 +135,7 @@ Account address: ZBXIRU3KVUTZMFC2MNDHFZ5RZMEH6FYGYZ32B6BEJHQNKWTUJUBB72WL4Y
 
 *Important:* Never use this private key mnemonic to hold real Algos (i.e., on MainNet). Only use it for "fake Algos" on TestNet.
 
-These accounts are now created and ready to use on the testnet!
+These accounts are now created and ready to use on the TestNet!
 
 ### Step 1.1 - Fund the Two Accounts
 
@@ -151,7 +151,7 @@ Refresh the page between each dispention.
 
 **Task:** Check that the two accounts now have at least 10 Algos.
 
-To check the balance of an account, go to a block explorer (e.g., [AlgoExplorer](https://testnet.algoexplorer.io)), search for your address and look at the balance. Block exploers let you observe the current state of the blockchains, which should contain your new funded accounts on the testnet!
+To check the balance of an account, go to a block explorer (e.g., [AlgoExplorer](https://testnet.algoexplorer.io)), search for your address and look at the balance. Block exploers let you observe the current state of the blockchains, which should contain your new funded accounts on the TestNet!
 
 Each account should now have 10 Algos.
 If this is not the case, go back to Step 1.1.
@@ -184,10 +184,10 @@ algod_client = algod.AlgodClient(
 You also need to replace the amount and the note by the correct value.
 Note that the amount is specified in microAlgos: 1,000,000 microAlgo = 1 Algo.
 
-Finally, the code snippets require your private key, as opposed to your private key mneumonic. To convert your mneumonic to your private key, you’ll have to:
+Finally, the code snippets require your private key, as opposed to your private key mnemonic. To convert your mnemonic to your private key, you’ll have to:
 ```py
 from algosdk import mnemonic
-private_key = mnemonic.to_private_key("place your mneumonic here”)
+private_key = mnemonic.to_private_key("place your mnemonic here”)
 ```
 
 You can confirm the two transactions were committed to the blockchain on any block explorer, by searching for the account address and clicking on the relevant transaction.
