@@ -168,7 +168,7 @@ Any transaction can include an arbitrary "note" of up to 1kB.
 In other words, notes allow to store small amount of data on the blockchain.
 For this homework, the notes need to be `my first Algorand transaction` and `my second Algorand transaction` respectively.
 
-The Python SDK allows you to send transactions. See the [tutorial "Your First Transaction"](https://developer.algorand.org/docs/sdks/python/) starting at step "Connect your client". Create a python file and copy-paste the appropriete codesnippets in to send the transactions.
+The Python SDK allows you to send transactions. See the [tutorial "Your First Transaction"](https://developer.algorand.org/docs/sdks/python/) starting at step "Connect your client". Create a python file and copy-paste the appropriate code snippets in to send the transactions.
 
 A few hints as you complete this tutorial.
 
