@@ -112,6 +112,7 @@ The private key is usually represented by a 25-word mnemonic. It should be kept 
 ### Step 1.1 - Create Two Algorand Accounts
 
 **Task:** Create two Algorand accounts and report the two addresses in [form.md](form.md). The accounts will be called account A and B from now on.
+Also, save the 25-mnemonic words of each account somewhere. You will need them later.
 
 The Python SDK allows you easily to create wallets/accounts by running the following code:
 ```py
