@@ -69,7 +69,7 @@ Python 3.8.0 (or later) with Pip must be installed on your computer.
 Open a terminal and run:
 
 ```bash
-python3 -m pip install py-algorand-sdk
+python3 -m pip install py-algorand-sdk --upgrade
 ```
 
 Troubleshooting:
@@ -151,7 +151,7 @@ Refresh the page between each dispention.
 
 **Task:** Check that the two accounts now have at least 10 Algos.
 
-To check the balance of an account, go to a block explorer (e.g., [AlgoExplorer](https://testnet.algoexplorer.io)), search for your address and look at the balance. Block exploers let you observe the current state of the blockchains, which should contain your new funded accounts on the TestNet!
+To check the balance of an account, go to a block explorer (e.g., [AlgoExplorer](https://testnet.algoexplorer.io)), search for your address and look at the balance. Block explorers let you observe the current state of the blockchains, which should contain your new funded accounts on the TestNet!
 
 Each account should now have 10 Algos.
 If this is not the case, go back to Step 1.1.
