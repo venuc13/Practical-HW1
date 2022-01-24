@@ -208,7 +208,7 @@ ASAs can be used to represent stablecoins, loyalty points, system credits, in-ga
 
 ### Step 3.1 - Create your Asset
 
-**Task:** Create your own asset on Algorand from account A. The creator account must be account A. The total supply (number of tokens) should be at least 10. Choose your preferred asset name and unit name.
+**Task:** Create your own asset on Algorand from account A. The creator account must be account A. The total supply (number of tokens) should be at least 10. Choose your preferred asset name and unit name. Report the Asset ID and its name on [form.md](form.md).
 
 You can create assets using the Python SDK. See the [developer documentation](https://developer.algorand.org/docs/features/asa/#creating-an-asset) or the tutorial [Working with ASA using Python](https://developer.algorand.org/tutorials/asa-python). Note, the tutorial may use three accounts but you should use your two accounts only.
 
