@@ -104,7 +104,7 @@ Troubleshooting: If you don't see the "Algorand Explorer" tab, check you created
 In order to send transactions on the Algorand blockchain, you need to create an account.
 Basic accounts on Algorand are defined by an *address* (or public key) and a *private key*.
 
-The address is completely public and should be given to anybody who needs to send Algos or other assets/tokens to you for example.
+The address is completely public and should be given to anybody who needs to send Algos or other assets/tokens to you, for example.
 
 The *private key* is used to authorize transactions from your account by *signing* them. 
 The private key is usually represented by a 25-word mnemonic. It should be kept secret.
