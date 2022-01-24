@@ -187,7 +187,7 @@ Note that the amount is specified in microAlgos: 1,000,000 microAlgo = 1 Algo.
 Finally, the code snippets require your private key, as opposed to your private key mnemonic. To convert your mnemonic to your private key, you’ll have to:
 ```py
 from algosdk import mnemonic
-private_key = mnemonic.to_private_key("place your mnemonic here”)
+private_key = mnemonic.to_private_key("place your mnemonic here")
 ```
 
 You can confirm the two transactions were committed to the blockchain on any block explorer, by searching for the account address and clicking on the relevant transaction.
