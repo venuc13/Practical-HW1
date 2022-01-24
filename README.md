@@ -244,7 +244,7 @@ See the [developer documentation](https://developer.algorand.org/docs/features/a
 In the previous steps, we have seen how to transfer Algos, create assets, and transfer assets.
 In many situations however, we need to trade or exchange x asset for y Algos (or y other assets).
 For example account A may sell its asset to account B instead of giving it away.
-One solution is just to have account B first send some Algos to pay for the asset, and then account B to send the asset.
+One solution is just to have account B first send some Algos to pay for the asset, and then account A to send the asset.
 But then account B cannot be sure account A will not run with the money.
 
 Atomic transfers completely solve this issue.
