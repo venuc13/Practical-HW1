@@ -11,7 +11,7 @@ A few key concepts to keep in mind throughout this homework.
 
 The first is that “the blockchain” that you will be interacting with can be thought of as an instantiation of some protocol, in this case the Algorand protocol. This protocol defines a network of nodes (Algorand nodes), which at a very basic level are computers all around the world that are running the Algorand software, which implements the Algorand protocol. 
 
-There are multiple instances of this network. The two largest instances are called the mainnet and the TestNet. These are both public networks (as in anyone can access and interact with them), but the mainnet uses a fixed supply of the native currency Algo, which has real monetary value. The TestNet on the other hand is public but for sandboxing purposes and thus has a “fake” Algo currency that can be generated out of thin-air (instead of purchasing them with real money). We will interact with the TestNet and not the mainnet in this homework.
+There are multiple instances of this network. The two largest instances are called the MainNet and the TestNet. These are both public networks (as in anyone can access and interact with them), but the MainNet uses a fixed supply of the native currency Algo, which has real monetary value. The TestNet on the other hand is public but for sandboxing purposes and thus has a “fake” Algo currency that can be generated out of thin-air (instead of purchasing them with real money). We will interact with the TestNet and not the MainNet in this homework.
 
 Further, you can create your own private instantiations of the Algorand network. In the extreme case, this network may consist of just one node such as your laptop.
 
