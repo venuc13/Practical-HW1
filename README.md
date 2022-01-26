@@ -388,6 +388,6 @@ Most dApps actually now use smart contracts rather than smart signatures.
 Still smart signatures are useful in some specific use cases like the above simple automated trading (a smart contract would have been slightly more complex) and when very complex operations need to be performed (like slow cryptographic operations).
 
 ## Submission
-Submit your form.md file and the python files you used to interact with the blockhain on gradescope.
+Submit your form.md file and the python files you used to interact with the blockchain on gradescope.
 
 This concludes the homework! 🎉🎉
