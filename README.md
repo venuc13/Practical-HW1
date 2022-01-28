@@ -30,7 +30,7 @@ Note that we expect you to learn how to read through some open source documentat
 
 Further, we expect you to be comfortable with some level of python. In this homework, you won't have to write your own code, just copy-pasting code-snippets you find on guides. However, in future homeworks, you will have to do your own programming. If your lack of python knowledge is inhibiting you, feel free to lookup very basic online tutorials (there are great ones on YouTube) or come to Office Hours.
 
-## Step 0 - Setup
+## Step 0 - Setup (10 Points)
 
 ### Background
 
@@ -97,7 +97,7 @@ After installing the AlgoDEA extension in PyCharm:
 
 Troubleshooting: If you don't see the "Algorand Explorer" tab, check you created a new Algorand project and not a Pure Python project.
 
-## Step 1 - Create Two Algorand Accounts and Fund Them
+## Step 1 - Create Two Algorand Accounts and Fund Them (18 Points)
 
 ### Background
 
@@ -160,7 +160,7 @@ Remark that it takes less than 5s for the funding transaction to be committed to
 Even more importantly, once the transaction appears in the block explorer (i.e., is committed to a block), the transaction is final and cannot be reversed or cancelled.
 This is a distinctive property of the Algorand blockchain: **immediate finality**.
 
-## Step 2 - Send your First Transactions
+## Step 2 - Send your First Transactions (18 Points)
 
 **Task:** From accounts A and B, send 1.42 Algos to `4O6BRAPVLX5ID23AZWV33TICD35TI6JWOHXVLPGO4VRJATO6MZZQRKC7RI` with notes `my first Algorand transaction` and `my second Algorand transaction` respectively. Write down the corresponding transaction ID (aka, TxID) of the two transactions in [form.md](form.md).
 
@@ -201,7 +201,7 @@ Do not forget to copy the transaction ID to [form.md](form.md) (you can use the 
 To send a transaction on Algorand, you need to pay a fee. The minimum fee is 0.001 Algo (i.e., 1,000 microAlgos). The required fee may increase in case of congestion. When this homework was written, this never happened.
 See the [developer documentation](https://developer.algorand.org/docs/features/transactions/#fees) for details.
 
-## Step 3 - Your Own Custom Token/Asset (ASA)
+## Step 3 - Your Own Custom Token/Asset (ASA) (18 Points)
 
 The Algorand protocol supports the creation of on-chain assets or tokens (essentially, custom coins) that benefit from the same security, compatibility, speed and ease of use as the Algo. The official name for assets on Algorand is *Algorand Standard Assets (ASA)*.
 ASAs can be used to represent stablecoins, loyalty points, system credits, in-game points, and collectibles, to name just a few. For more details, see [the developer documentation](https://developer.algorand.org/docs/features/asa/).
@@ -239,7 +239,7 @@ For every asset an account opts in or creates, the minimum balance is increased 
 
 See the [developer documentation](https://developer.algorand.org/docs/features/asa/#assets-overview) for more details.
 
-## Step 4 - Trade Assets via Atomic Transfer
+## Step 4 - Trade Assets via Atomic Transfer (18 Points)
 
 In the previous steps, we have seen how to transfer Algos, create assets, and transfer assets.
 In many situations however, we need to trade or exchange x asset for y Algos (or y other assets).
@@ -275,7 +275,7 @@ On [AlgoExplorer](https://testnet.algoexplorer.io) you can see that transactions
 
 If you do not see the above, it means you sent two independent transactions instead of making an atomic transfer.
 
-## Step 5 - Automating Trading
+## Step 5 - Automating Trading (18 Points)
 
 While atomic transfers are very useful to trade assets, they require each account involved in the trade to sign the transactions.
 In some cases, you may want to allow anybody to trade assets with you without having to sign transactions.
