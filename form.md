@@ -7,7 +7,7 @@
 
 ## Step 2:
 
-* Transaction ID from account A: 
+* Transaction ID from account A: WWTG3V5IONINHR33FCGBCUKO5X5RNJWNV67ZP7QBXKIVEJHAVHJQ
 * Transaction ID from account B: 
 
 ## Step 3.1:
