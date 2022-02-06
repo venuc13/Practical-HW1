@@ -2,8 +2,8 @@
 
 ## Step 1.1:
 
-* Address of account A: 
-* Address of account B: 
+* Address of account A: antenna barely silent forward obvious start shoe whale obscure gift praise cycle morning sustain spare moment blind dumb faint april unaware arena
+* Address of account B: TDY7IE7U37OO4I6W7EQ6HDKJXNBSLHN33774YENXKINH257LVT24WPHY7A
 
 ## Step 2:
 
