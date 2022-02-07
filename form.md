@@ -12,8 +12,8 @@
 
 ## Step 3.1:
 
-* Asset ID:
-* Name of the asset: 
+* Asset ID: 69264398
+* Name of the asset: latinum
 
 ## Step 3.2:
 
