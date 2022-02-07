@@ -21,7 +21,7 @@
 
 ## Step 3.3:
 
-* Transaction ID for transfer of asset from A to B:
+* Transaction ID for transfer of asset from A to B: D35AC6P6RFHAYKHGCUGI2G7X6L2LDLYYZUJON7L4DOWPFPNR6XGQ
 
 ## Step 4:
 
